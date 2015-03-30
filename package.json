@@ -1,0 +1,17 @@
+{
+  "name": "unexpected-karma",
+  "version": "1.0.0",
+  "description": "Using unexpected BDD assertion library in, karma testing environment",
+  "main": "index.js",
+  "author": "rab",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "preinstall": "npm install ../karma-unexpected/"
+  }
+}
